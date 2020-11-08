@@ -13,16 +13,16 @@ spring:
         git:
           uri: file:///E:/_CodeRepo/configProperties
 ---
-server:
-  port: 9999
-spring:
-  profiles:
-    - test
-  application:
-    name: config-service
-  cloud:
-    config:
-      server:
-        bootstrap: true
-        git:
-          uri: file:///E:/_CodeRepo/configProperties
+#server:
+#  port: 9999
+#spring:
+#  profiles:
+#    - test
+#  application:
+#    name: config-service
+#  cloud:
+#    config:
+#      server:
+#        bootstrap: true
+#        git:
+#          uri: file:///E:/_CodeRepo/configProperties
